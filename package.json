@@ -1,0 +1,47 @@
+{
+  "name": "@credorevolution/aiscreen-components-library",
+  "version": "0.1.1",
+  "private": false,
+  "main": "dist/aiscreen-player.umd.js",
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CredoRevolution/aiscreen-components-library"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name aiscreen-player ./src/components/index.js"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "core-js": "^3.8.3",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "pretty-checkbox": "^3.0.3",
+    "pretty-checkbox-vue": "^1.1.9",
+    "v-mask": "^2.3.0",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
+    "vue-js-toggle-button": "^1.3.3",
+    "vue-multiselect": "^2.1.9",
+    "vue2-timepicker": "^1.1.6",
+    "vuelidate": "^0.7.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
